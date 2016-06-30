@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+
+public class Tools {
+    
+    
+    public class func getNameOfClass() -> String {
+    
+    return "Tools"
+    
+    }
+}
