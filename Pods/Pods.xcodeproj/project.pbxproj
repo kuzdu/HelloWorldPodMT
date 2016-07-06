@@ -1,0 +1,1041 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		055C5B35348760F8E2ED9463C4ED6121 /* BaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 673FB93259D91F1D1417E96F0EDA2D9E /* BaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07DCB0A2B1A8BDF3655EC2CCA0059232 /* DynamicFontView.h in Headers */ = {isa = PBXBuildFile; fileRef = 58CC3D1824B7DE6373B4F7771634FF01 /* DynamicFontView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D04F9FAF681F9EFFE0EA6DB8C45E71E /* BaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B1365B0696AB294ADB5B87F4B2621A3 /* BaseTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EFD1FF643346FF85C83679F659672CA /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E96037F6ACB33EB9521757B81043D /* Stream.swift */; };
+		0F6FCF15CC1F4F05C46539443FDA2AAB /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72508AA87BECB67883A533FDED5E5B78 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10209C8E86ADD8DC10EA4E477A49C023 /* Pods-HelloWorldPodMT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E3B2932208BDB3C9AB35E1F4912E5B0 /* Pods-HelloWorldPodMT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12689ADE1AFC776725E8D435B8A349D0 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74E4278D7B404E5F7AA29E888D411BF /* BaseTableViewController.m */; };
+		1796C391FCE1177854BC2C74EC5386B1 /* DynamicFontView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F335EDEB2BF7A12F6895BEC36CFAF1E /* DynamicFontView.m */; };
+		1839D3CE4E8638E9EF550A91B9E3A66D /* UIView+BetterBaseClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0A7771C6658EAC50960AC393196A5D /* UIView+BetterBaseClasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E7623B9420C3E71FAE3287C0CECA040 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F434B87A84ED60F2E6BF53DEF8CD5CD /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2715351F067585DA38060CA177095912 /* DynamicFontTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4439B8838017524BF73492A80F85DF7 /* DynamicFontTableViewController.m */; };
+		2D1AE8B5F398BF32462C06F3892C34C4 /* AppDelegateNotificationKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = A44E9BCBD14482D04A28006FD6DA59F1 /* AppDelegateNotificationKeys.m */; };
+		30A8F35FCAB29F5FBFC9F3F7E25A3B6B /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A8AAEAB161C135667B4DD7E55BFA15 /* ServerTrustPolicy.swift */; };
+		3BFCC01D831DC33A2912DF30E7833A71 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD69E8B97CC1AF864A2324DE5A62C /* BaseViewController.m */; };
+		3C4565EFAB32482F2901B57C00EA6747 /* UIViewController+BetterBaseClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 64EF1EADFA20364E919C4A9DEB0FBC4A /* UIViewController+BetterBaseClasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E80F19B9293BBAEA27BDFADA2D24281 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */; };
+		3E9392CB5BD9C0CC47B04EDB40639558 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F08FA41E8FA80BA3CE4C3474503249 /* Validation.swift */; };
+		4ABE057E405DA65F2F9B381DBC12BF36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		52EA17D662B2A9D21785B84BD755B14B /* BaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 048F7DAFD0C1A9191B0A74A055A5F16D /* BaseTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		588044F780DC6AD7D4CB0C7AC6E3E399 /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B3FCB7B0F7675E15E02A7B1A9346BAB /* BaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A9CAF17685783D4C1231A67C77979CD /* BetterBaseClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3592589958A4A61226E745E09D8D71 /* BetterBaseClasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		621EA33B2E645F0AC489886F25CD1163 /* DynamicFontTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6961C1F4BF2C740BB1907FE221250009 /* DynamicFontTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		655F9D3829842C5EB31336793187B8D3 /* UIViewController+BetterBaseClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = D151F34B962B2CC85E7DC4281C7107C0 /* UIViewController+BetterBaseClasses.m */; };
+		69A447D12E60E5C3451DA30C6BB4BF7F /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E15DCA38D98D440E8BA1BB1372072 /* Manager.swift */; };
+		6BA228F96A3A4EE2E8EAC28136549FFD /* AppDelegateNotificationKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A57C604FE45B003657BB40C5AD55E10 /* AppDelegateNotificationKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BE6DCCDDE6A64F21D2D1EC793FC7A2F /* BaseAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC99AE6381D0B0AE76EE35151428163 /* BaseAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2B7A9387E596C25485B76D9F1D6274 /* BetterBaseControllers.h in Headers */ = {isa = PBXBuildFile; fileRef = B319D932D1DB79FF7BE9318DD9D0D9A4 /* BetterBaseControllers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		772A2D7A16396C92206C4F8C0BAB8BB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		7D7B3073C80761AE975CB75AE26F8A08 /* BaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13193E0972646F913B42863D51E29A6C /* BaseAppDelegate.m */; };
+		81966E3E88182E605A4574DED836DCD0 /* BetterBaseViews.h in Headers */ = {isa = PBXBuildFile; fileRef = BC33B3CFC134B4C0CE49A8ADCE77B0BF /* BetterBaseViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		848CEFBFC69DEBAF0E18885F3269F439 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261607E8C2BD0AE7444B548AE79D3AF2 /* ResponseSerialization.swift */; };
+		8D405DBBB7210E52BD6F3C3512A22F56 /* BetterBaseConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7D0CBC2D807B370C9D096C47511CA2 /* BetterBaseConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9077ECA2FA7B9C5D73365490A3D8898F /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6311D0BC2DD901231597368D77ED0287 /* Download.swift */; };
+		93E67A16ECCE135768C160F5C7D27A87 /* Pods-HelloWorldPodMT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 480ED29439ABBB82D3A2A661D46F6F4F /* Pods-HelloWorldPodMT-dummy.m */; };
+		947288134A6F2AE96CB71D123F102878 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E20C2B76D932CB9823D14CF6A306FAE /* BaseTableViewCell.m */; };
+		9582357C138C9D397864E7D0B8892FD6 /* DynamicFontTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EF57D6F08029A142EA8774A798AE66 /* DynamicFontTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E17CC11959A1FE5566CE528047ACDC0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 89028117220814FE8C0BD6ABCFC7C21C /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A215FAB60CB15B6E5FA3A15E9E350D7D /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE0D4DE3ACB7639F4BE0C16C61C99BA9 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A433E828682CD8FB5F299C5DC8680828 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		A745F7DE32B6E2229DB4880E120FCA55 /* DynamicFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02AB640A0F490B312E7EABB1985AFD1 /* DynamicFontViewController.m */; };
+		A8B5EDB7371475F62767B297B1A10CDE /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B61AB1EE8072EA15B8D3E01B4A52D /* ParameterEncoding.swift */; };
+		B260C2A2454BC122E95EE52040D7F2A2 /* BetterBaseClasses-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91639D561F515F2B0F74999718295BB6 /* BetterBaseClasses-dummy.m */; };
+		BB010EE04BA829E196554A00A951AA7C /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4961E07A0597D79F6297A2A458D75C /* MBProgressHUD-dummy.m */; };
+		BD932AB2F4C149DF7C804EC3A12A2E57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		C9A6021117809C7A404F03817FB5F6E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */; };
+		D39B20327B1DAF6D8753ED5685DDE6DC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406B510BE519931A18117677B3A75F6C /* MultipartFormData.swift */; };
+		D66032E5AF14B7EFDF34C70C43FB29E5 /* BetterBaseClasses-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0ADCF740348E7305DA58769A378413 /* BetterBaseClasses-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8136D3B59D4753690000387A8082B54 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77929E51042AB2DECF33642D5CAD2103 /* Alamofire-dummy.m */; };
+		DF0007CEC465B830F327FA82C74D5216 /* DynamicFontTableContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DEEDCB27B19D0F82020B6C18B3E46CAB /* DynamicFontTableContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF420C5954916BD8D789E91119918C56 /* DynamicFontViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7852BFE05E0BBCB6B66D7AA91D22FA /* DynamicFontViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0C7E09B813F8D51187FCC5871C927F7 /* UIView+BetterBaseClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CF13D579175C85087413A2422AC919 /* UIView+BetterBaseClasses.m */; };
+		E644230728A532EAD030353A3D0A6EC9 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F33C7C047A54FEA817CADE678128D1CF /* BaseView.m */; };
+		E6D041ABFBB48D9F1D8AA96E7D4C6C34 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD631B7CEA813B0B64B75AFF2F5B41C9 /* Result.swift */; };
+		E7B226D8BB16471AD63665A794036E44 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762027DBF1C5C3D7F9C6A21C32585168 /* Upload.swift */; };
+		E816509B4E3564E1A117CBDC0D845D69 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E264D1066053C6A5694277FA8734BC8 /* Alamofire.swift */; };
+		F16FEF1CB9703FE1887C8A618B84B7C6 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24EB8E5A901901DE3C694CFED54BBDE /* Request.swift */; };
+		F71F2772C7434714787133DAA8461F14 /* DynamicFontTableContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8264677A0C8A9DB704BD87E63FE6627 /* DynamicFontTableContainerViewController.m */; };
+		FAA76DE3855F78931550C2A277FDF517 /* DynamicFontTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A127CC51DB2C71D257ADE5EEDC8ACD0 /* DynamicFontTableViewCell.m */; };
+		FE1F95F519342B9266EB69B23B4336CF /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC36E0447AB1603769D7F6AC91D8C55 /* Error.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BA96C7339C22BA0968D2D5F38B9C49F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B2F30D90D85A544E9EFE2A49D392C25;
+			remoteInfo = Alamofire;
+		};
+		76BF74C734C5D98EC2EA2A3BEB61C043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C59230DBD73698F2D315A58920318946;
+			remoteInfo = BetterBaseClasses;
+		};
+		A0C5DFA4D6A6C6F5955E8CDE54E27F58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E61CE3B6DFA1FE6B3E296965C76C0E10;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048F7DAFD0C1A9191B0A74A055A5F16D /* BaseTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseTableViewController.h; path = BetterBaseClasses/Controllers/BaseTableViewController.h; sourceTree = "<group>"; };
+		06284F88A95989AF53395AC3B8EE1E59 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0F335EDEB2BF7A12F6895BEC36CFAF1E /* DynamicFontView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DynamicFontView.m; path = BetterBaseClasses/Views/DynamicFontView.m; sourceTree = "<group>"; };
+		0F7852BFE05E0BBCB6B66D7AA91D22FA /* DynamicFontViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicFontViewController.h; path = BetterBaseClasses/Controllers/DynamicFontViewController.h; sourceTree = "<group>"; };
+		127E38628D4BA7B34C58C967B8EB42EC /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		13193E0972646F913B42863D51E29A6C /* BaseAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseAppDelegate.m; path = BetterBaseClasses/Controllers/BaseAppDelegate.m; sourceTree = "<group>"; };
+		1B1365B0696AB294ADB5B87F4B2621A3 /* BaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseTableViewCell.h; path = BetterBaseClasses/Views/BaseTableViewCell.h; sourceTree = "<group>"; };
+		1D23EF8F65BDDAA30E7FEC3C30B9983F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E264D1066053C6A5694277FA8734BC8 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		23D0F7FD19EAC9A6BDC7987A49F943F9 /* Pods-HelloWorldPodMT-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWorldPodMT-acknowledgements.plist"; sourceTree = "<group>"; };
+		241708EC6793374D8605FB1ADF091660 /* Pods-HelloWorldPodMT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HelloWorldPodMT.modulemap"; sourceTree = "<group>"; };
+		261607E8C2BD0AE7444B548AE79D3AF2 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		2926B1A33C326D4EB48D48A6C7C21F8D /* Pods_HelloWorldPodMT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorldPodMT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F69489D7879C87D8A8750FA6DCF25B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A127CC51DB2C71D257ADE5EEDC8ACD0 /* DynamicFontTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DynamicFontTableViewCell.m; path = BetterBaseClasses/Views/DynamicFontTableViewCell.m; sourceTree = "<group>"; };
+		2A57C604FE45B003657BB40C5AD55E10 /* AppDelegateNotificationKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppDelegateNotificationKeys.h; path = BetterBaseClasses/Constants/AppDelegateNotificationKeys.h; sourceTree = "<group>"; };
+		34CF13D579175C85087413A2422AC919 /* UIView+BetterBaseClasses.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+BetterBaseClasses.m"; path = "BetterBaseClasses/Views/UIView+BetterBaseClasses.m"; sourceTree = "<group>"; };
+		3C20953A9F63BF3BD78366D0870C7D9E /* BetterBaseClasses.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BetterBaseClasses.xcconfig; sourceTree = "<group>"; };
+		3C9854452B704969D40D932335DEE0FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E3B2932208BDB3C9AB35E1F4912E5B0 /* Pods-HelloWorldPodMT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloWorldPodMT-umbrella.h"; sourceTree = "<group>"; };
+		406B510BE519931A18117677B3A75F6C /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		429112BEB7B8EFD5040B5EAE4A0652AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480ED29439ABBB82D3A2A661D46F6F4F /* Pods-HelloWorldPodMT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloWorldPodMT-dummy.m"; sourceTree = "<group>"; };
+		4B0ADCF740348E7305DA58769A378413 /* BetterBaseClasses-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BetterBaseClasses-umbrella.h"; sourceTree = "<group>"; };
+		57A8AAEAB161C135667B4DD7E55BFA15 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		58CC3D1824B7DE6373B4F7771634FF01 /* DynamicFontView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicFontView.h; path = BetterBaseClasses/Views/DynamicFontView.h; sourceTree = "<group>"; };
+		591806FB5B8E0DF95559960A254D9769 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59BF2422C07AC4F48B0B6E063FE4A70C /* BetterBaseClasses.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BetterBaseClasses.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6E15DCA38D98D440E8BA1BB1372072 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		6223D85FAC57B5EC76730975937A7B7D /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		6311D0BC2DD901231597368D77ED0287 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		633E96037F6ACB33EB9521757B81043D /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		64EF1EADFA20364E919C4A9DEB0FBC4A /* UIViewController+BetterBaseClasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+BetterBaseClasses.h"; path = "BetterBaseClasses/Controllers/UIViewController+BetterBaseClasses.h"; sourceTree = "<group>"; };
+		673FB93259D91F1D1417E96F0EDA2D9E /* BaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseView.h; path = BetterBaseClasses/Views/BaseView.h; sourceTree = "<group>"; };
+		6790B00F2B04CDBE8EEC7327039B9540 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		6961C1F4BF2C740BB1907FE221250009 /* DynamicFontTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicFontTableViewController.h; path = BetterBaseClasses/Controllers/DynamicFontTableViewController.h; sourceTree = "<group>"; };
+		6E20C2B76D932CB9823D14CF6A306FAE /* BaseTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseTableViewCell.m; path = BetterBaseClasses/Views/BaseTableViewCell.m; sourceTree = "<group>"; };
+		6EB0AFB3603A7FA6FDBCA34D20EDF2EB /* Pods-HelloWorldPodMT-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloWorldPodMT-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F39A254E25C60B10B65B1DC7F342915 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72508AA87BECB67883A533FDED5E5B78 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		743E8760849E21947C86B662290901E0 /* BetterBaseClasses-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BetterBaseClasses-prefix.pch"; sourceTree = "<group>"; };
+		762027DBF1C5C3D7F9C6A21C32585168 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		77929E51042AB2DECF33642D5CAD2103 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		7A29FA2CFFEECEA16993E00EE9C508B1 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3FCB7B0F7675E15E02A7B1A9346BAB /* BaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = BetterBaseClasses/Controllers/BaseViewController.h; sourceTree = "<group>"; };
+		7BC99AE6381D0B0AE76EE35151428163 /* BaseAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseAppDelegate.h; path = BetterBaseClasses/Controllers/BaseAppDelegate.h; sourceTree = "<group>"; };
+		89028117220814FE8C0BD6ABCFC7C21C /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		8A42610A6803D53ACA058BE5DE293822 /* Pods-HelloWorldPodMT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldPodMT.debug.xcconfig"; sourceTree = "<group>"; };
+		8A7D0CBC2D807B370C9D096C47511CA2 /* BetterBaseConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BetterBaseConstants.h; path = BetterBaseClasses/BetterBaseConstants.h; sourceTree = "<group>"; };
+		8C3592589958A4A61226E745E09D8D71 /* BetterBaseClasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BetterBaseClasses.h; path = BetterBaseClasses/BetterBaseClasses.h; sourceTree = "<group>"; };
+		8D4961E07A0597D79F6297A2A458D75C /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		8F434B87A84ED60F2E6BF53DEF8CD5CD /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		91639D561F515F2B0F74999718295BB6 /* BetterBaseClasses-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BetterBaseClasses-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96EF57D6F08029A142EA8774A798AE66 /* DynamicFontTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicFontTableViewCell.h; path = BetterBaseClasses/Views/DynamicFontTableViewCell.h; sourceTree = "<group>"; };
+		98F08FA41E8FA80BA3CE4C3474503249 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		A02AB640A0F490B312E7EABB1985AFD1 /* DynamicFontViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DynamicFontViewController.m; path = BetterBaseClasses/Controllers/DynamicFontViewController.m; sourceTree = "<group>"; };
+		A24EB8E5A901901DE3C694CFED54BBDE /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		A44E9BCBD14482D04A28006FD6DA59F1 /* AppDelegateNotificationKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppDelegateNotificationKeys.m; path = BetterBaseClasses/Constants/AppDelegateNotificationKeys.m; sourceTree = "<group>"; };
+		AC4949EE618DDA40A635C5EA44241935 /* Pods-HelloWorldPodMT-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloWorldPodMT-resources.sh"; sourceTree = "<group>"; };
+		B319D932D1DB79FF7BE9318DD9D0D9A4 /* BetterBaseControllers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BetterBaseControllers.h; path = BetterBaseClasses/BetterBaseControllers.h; sourceTree = "<group>"; };
+		B37BCEF25F2F1096F9915468C0A02AA0 /* Pods-HelloWorldPodMT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldPodMT.release.xcconfig"; sourceTree = "<group>"; };
+		B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		BC33B3CFC134B4C0CE49A8ADCE77B0BF /* BetterBaseViews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BetterBaseViews.h; path = BetterBaseClasses/BetterBaseViews.h; sourceTree = "<group>"; };
+		BD631B7CEA813B0B64B75AFF2F5B41C9 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		BE0D4DE3ACB7639F4BE0C16C61C99BA9 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		D151F34B962B2CC85E7DC4281C7107C0 /* UIViewController+BetterBaseClasses.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+BetterBaseClasses.m"; path = "BetterBaseClasses/Controllers/UIViewController+BetterBaseClasses.m"; sourceTree = "<group>"; };
+		D74E4278D7B404E5F7AA29E888D411BF /* BaseTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseTableViewController.m; path = BetterBaseClasses/Controllers/BaseTableViewController.m; sourceTree = "<group>"; };
+		D8264677A0C8A9DB704BD87E63FE6627 /* DynamicFontTableContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DynamicFontTableContainerViewController.m; path = BetterBaseClasses/Controllers/DynamicFontTableContainerViewController.m; sourceTree = "<group>"; };
+		DA0A7771C6658EAC50960AC393196A5D /* UIView+BetterBaseClasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BetterBaseClasses.h"; path = "BetterBaseClasses/Views/UIView+BetterBaseClasses.h"; sourceTree = "<group>"; };
+		DEEDCB27B19D0F82020B6C18B3E46CAB /* DynamicFontTableContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicFontTableContainerViewController.h; path = BetterBaseClasses/Controllers/DynamicFontTableContainerViewController.h; sourceTree = "<group>"; };
+		E21D2E7D27407B2C291BCA4BBD43C258 /* BetterBaseClasses.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BetterBaseClasses.modulemap; sourceTree = "<group>"; };
+		E4439B8838017524BF73492A80F85DF7 /* DynamicFontTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DynamicFontTableViewController.m; path = BetterBaseClasses/Controllers/DynamicFontTableViewController.m; sourceTree = "<group>"; };
+		ED6CD69E8B97CC1AF864A2324DE5A62C /* BaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = BetterBaseClasses/Controllers/BaseViewController.m; sourceTree = "<group>"; };
+		F02B61AB1EE8072EA15B8D3E01B4A52D /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		F33C7C047A54FEA817CADE678128D1CF /* BaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseView.m; path = BetterBaseClasses/Views/BaseView.m; sourceTree = "<group>"; };
+		F46199BC0C552D826E296738528C398F /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		FBBE4ED322F0247657C0882F5752924C /* Pods-HelloWorldPodMT-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloWorldPodMT-frameworks.sh"; sourceTree = "<group>"; };
+		FBE4E50B0B37116309F4C22C114499B6 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		FCC36E0447AB1603769D7F6AC91D8C55 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14409D151BCE19B917E1ACDD56DC85F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD932AB2F4C149DF7C804EC3A12A2E57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6488DB2C9BB99C53077D390CE673DD56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E80F19B9293BBAEA27BDFADA2D24281 /* CoreGraphics.framework in Frameworks */,
+				772A2D7A16396C92206C4F8C0BAB8BB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEBF070264939A91CA8BA5BFFF53966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABE057E405DA65F2F9B381DBC12BF36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AFBE95F5F38FAE24C52C261CC275C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A433E828682CD8FB5F299C5DC8680828 /* Foundation.framework in Frameworks */,
+				C9A6021117809C7A404F03817FB5F6E5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A68FE8A6158D395EC4CB10F8472F165 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */,
+				3C9854452B704969D40D932335DEE0FF /* Foundation.framework */,
+				0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A68FE8A6158D395EC4CB10F8472F165 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DD49658F34266DFE7852FA3A51578B4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2A57C604FE45B003657BB40C5AD55E10 /* AppDelegateNotificationKeys.h */,
+				A44E9BCBD14482D04A28006FD6DA59F1 /* AppDelegateNotificationKeys.m */,
+				8A7D0CBC2D807B370C9D096C47511CA2 /* BetterBaseConstants.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		4220BF3C0DD66F2BDFC1A191F9F5B58A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7BC99AE6381D0B0AE76EE35151428163 /* BaseAppDelegate.h */,
+				13193E0972646F913B42863D51E29A6C /* BaseAppDelegate.m */,
+				048F7DAFD0C1A9191B0A74A055A5F16D /* BaseTableViewController.h */,
+				D74E4278D7B404E5F7AA29E888D411BF /* BaseTableViewController.m */,
+				7B3FCB7B0F7675E15E02A7B1A9346BAB /* BaseViewController.h */,
+				ED6CD69E8B97CC1AF864A2324DE5A62C /* BaseViewController.m */,
+				B319D932D1DB79FF7BE9318DD9D0D9A4 /* BetterBaseControllers.h */,
+				DEEDCB27B19D0F82020B6C18B3E46CAB /* DynamicFontTableContainerViewController.h */,
+				D8264677A0C8A9DB704BD87E63FE6627 /* DynamicFontTableContainerViewController.m */,
+				6961C1F4BF2C740BB1907FE221250009 /* DynamicFontTableViewController.h */,
+				E4439B8838017524BF73492A80F85DF7 /* DynamicFontTableViewController.m */,
+				0F7852BFE05E0BBCB6B66D7AA91D22FA /* DynamicFontViewController.h */,
+				A02AB640A0F490B312E7EABB1985AFD1 /* DynamicFontViewController.m */,
+				64EF1EADFA20364E919C4A9DEB0FBC4A /* UIViewController+BetterBaseClasses.h */,
+				D151F34B962B2CC85E7DC4281C7107C0 /* UIViewController+BetterBaseClasses.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4E80835A61440BBCF0DAE80B87AD90DB /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8F434B87A84ED60F2E6BF53DEF8CD5CD /* MBProgressHUD.h */,
+				89028117220814FE8C0BD6ABCFC7C21C /* MBProgressHUD.m */,
+				5D46052901971917986C864E79C880B5 /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		4EA1CA05750EEFF512A3371513EE1727 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				1E264D1066053C6A5694277FA8734BC8 /* Alamofire.swift */,
+				6311D0BC2DD901231597368D77ED0287 /* Download.swift */,
+				FCC36E0447AB1603769D7F6AC91D8C55 /* Error.swift */,
+				5B6E15DCA38D98D440E8BA1BB1372072 /* Manager.swift */,
+				406B510BE519931A18117677B3A75F6C /* MultipartFormData.swift */,
+				F02B61AB1EE8072EA15B8D3E01B4A52D /* ParameterEncoding.swift */,
+				A24EB8E5A901901DE3C694CFED54BBDE /* Request.swift */,
+				261607E8C2BD0AE7444B548AE79D3AF2 /* ResponseSerialization.swift */,
+				BD631B7CEA813B0B64B75AFF2F5B41C9 /* Result.swift */,
+				57A8AAEAB161C135667B4DD7E55BFA15 /* ServerTrustPolicy.swift */,
+				633E96037F6ACB33EB9521757B81043D /* Stream.swift */,
+				762027DBF1C5C3D7F9C6A21C32585168 /* Upload.swift */,
+				98F08FA41E8FA80BA3CE4C3474503249 /* Validation.swift */,
+				8D2525198CD721247353A031A2AD99DB /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		5D46052901971917986C864E79C880B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29F69489D7879C87D8A8750FA6DCF25B /* Info.plist */,
+				F46199BC0C552D826E296738528C398F /* MBProgressHUD.modulemap */,
+				FBE4E50B0B37116309F4C22C114499B6 /* MBProgressHUD.xcconfig */,
+				8D4961E07A0597D79F6297A2A458D75C /* MBProgressHUD-dummy.m */,
+				6223D85FAC57B5EC76730975937A7B7D /* MBProgressHUD-prefix.pch */,
+				72508AA87BECB67883A533FDED5E5B78 /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		749B6ED162471F94A637E5D6548CBEF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E21D2E7D27407B2C291BCA4BBD43C258 /* BetterBaseClasses.modulemap */,
+				3C20953A9F63BF3BD78366D0870C7D9E /* BetterBaseClasses.xcconfig */,
+				91639D561F515F2B0F74999718295BB6 /* BetterBaseClasses-dummy.m */,
+				743E8760849E21947C86B662290901E0 /* BetterBaseClasses-prefix.pch */,
+				4B0ADCF740348E7305DA58769A378413 /* BetterBaseClasses-umbrella.h */,
+				429112BEB7B8EFD5040B5EAE4A0652AE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BetterBaseClasses";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				9DC608D39FBEEFF8D9F16E2D353E186D /* Pods */,
+				9485AA1EFD783A46CD37085507FEECA1 /* Products */,
+				908EE1A1D173BAD34DB8CF141CE9B9CA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B86DDE2F4AEF38651D019B0279E3024 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B1365B0696AB294ADB5B87F4B2621A3 /* BaseTableViewCell.h */,
+				6E20C2B76D932CB9823D14CF6A306FAE /* BaseTableViewCell.m */,
+				673FB93259D91F1D1417E96F0EDA2D9E /* BaseView.h */,
+				F33C7C047A54FEA817CADE678128D1CF /* BaseView.m */,
+				BC33B3CFC134B4C0CE49A8ADCE77B0BF /* BetterBaseViews.h */,
+				96EF57D6F08029A142EA8774A798AE66 /* DynamicFontTableViewCell.h */,
+				2A127CC51DB2C71D257ADE5EEDC8ACD0 /* DynamicFontTableViewCell.m */,
+				58CC3D1824B7DE6373B4F7771634FF01 /* DynamicFontView.h */,
+				0F335EDEB2BF7A12F6895BEC36CFAF1E /* DynamicFontView.m */,
+				DA0A7771C6658EAC50960AC393196A5D /* UIView+BetterBaseClasses.h */,
+				34CF13D579175C85087413A2422AC919 /* UIView+BetterBaseClasses.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8D2525198CD721247353A031A2AD99DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				127E38628D4BA7B34C58C967B8EB42EC /* Alamofire.modulemap */,
+				06284F88A95989AF53395AC3B8EE1E59 /* Alamofire.xcconfig */,
+				77929E51042AB2DECF33642D5CAD2103 /* Alamofire-dummy.m */,
+				6790B00F2B04CDBE8EEC7327039B9540 /* Alamofire-prefix.pch */,
+				BE0D4DE3ACB7639F4BE0C16C61C99BA9 /* Alamofire-umbrella.h */,
+				591806FB5B8E0DF95559960A254D9769 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		908EE1A1D173BAD34DB8CF141CE9B9CA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2AB8D6FE72930CB3E568A21FFA4B019 /* Pods-HelloWorldPodMT */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9485AA1EFD783A46CD37085507FEECA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A29FA2CFFEECEA16993E00EE9C508B1 /* Alamofire.framework */,
+				59BF2422C07AC4F48B0B6E063FE4A70C /* BetterBaseClasses.framework */,
+				6F39A254E25C60B10B65B1DC7F342915 /* MBProgressHUD.framework */,
+				2926B1A33C326D4EB48D48A6C7C21F8D /* Pods_HelloWorldPodMT.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC608D39FBEEFF8D9F16E2D353E186D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EA1CA05750EEFF512A3371513EE1727 /* Alamofire */,
+				EA7DE6CBCE97000F1CC947CE0620390A /* BetterBaseClasses */,
+				4E80835A61440BBCF0DAE80B87AD90DB /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2AB8D6FE72930CB3E568A21FFA4B019 /* Pods-HelloWorldPodMT */ = {
+			isa = PBXGroup;
+			children = (
+				1D23EF8F65BDDAA30E7FEC3C30B9983F /* Info.plist */,
+				241708EC6793374D8605FB1ADF091660 /* Pods-HelloWorldPodMT.modulemap */,
+				6EB0AFB3603A7FA6FDBCA34D20EDF2EB /* Pods-HelloWorldPodMT-acknowledgements.markdown */,
+				23D0F7FD19EAC9A6BDC7987A49F943F9 /* Pods-HelloWorldPodMT-acknowledgements.plist */,
+				480ED29439ABBB82D3A2A661D46F6F4F /* Pods-HelloWorldPodMT-dummy.m */,
+				FBBE4ED322F0247657C0882F5752924C /* Pods-HelloWorldPodMT-frameworks.sh */,
+				AC4949EE618DDA40A635C5EA44241935 /* Pods-HelloWorldPodMT-resources.sh */,
+				3E3B2932208BDB3C9AB35E1F4912E5B0 /* Pods-HelloWorldPodMT-umbrella.h */,
+				8A42610A6803D53ACA058BE5DE293822 /* Pods-HelloWorldPodMT.debug.xcconfig */,
+				B37BCEF25F2F1096F9915468C0A02AA0 /* Pods-HelloWorldPodMT.release.xcconfig */,
+			);
+			name = "Pods-HelloWorldPodMT";
+			path = "Target Support Files/Pods-HelloWorldPodMT";
+			sourceTree = "<group>";
+		};
+		EA7DE6CBCE97000F1CC947CE0620390A /* BetterBaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				8C3592589958A4A61226E745E09D8D71 /* BetterBaseClasses.h */,
+				3DD49658F34266DFE7852FA3A51578B4 /* Constants */,
+				4220BF3C0DD66F2BDFC1A191F9F5B58A /* Controllers */,
+				749B6ED162471F94A637E5D6548CBEF8 /* Support Files */,
+				8B86DDE2F4AEF38651D019B0279E3024 /* Views */,
+			);
+			path = BetterBaseClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C301B91AEEB32DEF6C8492E8A244AC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA228F96A3A4EE2E8EAC28136549FFD /* AppDelegateNotificationKeys.h in Headers */,
+				6BE6DCCDDE6A64F21D2D1EC793FC7A2F /* BaseAppDelegate.h in Headers */,
+				0D04F9FAF681F9EFFE0EA6DB8C45E71E /* BaseTableViewCell.h in Headers */,
+				52EA17D662B2A9D21785B84BD755B14B /* BaseTableViewController.h in Headers */,
+				055C5B35348760F8E2ED9463C4ED6121 /* BaseView.h in Headers */,
+				588044F780DC6AD7D4CB0C7AC6E3E399 /* BaseViewController.h in Headers */,
+				D66032E5AF14B7EFDF34C70C43FB29E5 /* BetterBaseClasses-umbrella.h in Headers */,
+				5A9CAF17685783D4C1231A67C77979CD /* BetterBaseClasses.h in Headers */,
+				8D405DBBB7210E52BD6F3C3512A22F56 /* BetterBaseConstants.h in Headers */,
+				6F2B7A9387E596C25485B76D9F1D6274 /* BetterBaseControllers.h in Headers */,
+				81966E3E88182E605A4574DED836DCD0 /* BetterBaseViews.h in Headers */,
+				DF0007CEC465B830F327FA82C74D5216 /* DynamicFontTableContainerViewController.h in Headers */,
+				9582357C138C9D397864E7D0B8892FD6 /* DynamicFontTableViewCell.h in Headers */,
+				621EA33B2E645F0AC489886F25CD1163 /* DynamicFontTableViewController.h in Headers */,
+				07DCB0A2B1A8BDF3655EC2CCA0059232 /* DynamicFontView.h in Headers */,
+				DF420C5954916BD8D789E91119918C56 /* DynamicFontViewController.h in Headers */,
+				1839D3CE4E8638E9EF550A91B9E3A66D /* UIView+BetterBaseClasses.h in Headers */,
+				3C4565EFAB32482F2901B57C00EA6747 /* UIViewController+BetterBaseClasses.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5F0ACE0FD20B1DF9AC7A825083EF72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10209C8E86ADD8DC10EA4E477A49C023 /* Pods-HelloWorldPodMT-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECCB5570B7FBF8D348655FFA0FE9C90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6FCF15CC1F4F05C46539443FDA2AAB /* MBProgressHUD-umbrella.h in Headers */,
+				1E7623B9420C3E71FAE3287C0CECA040 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF115D13DFBDD03E0ABD3097C5108DCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A215FAB60CB15B6E5FA3A15E9E350D7D /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B2F30D90D85A544E9EFE2A49D392C25 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DA65F1729D88E78F64BE8BACBAD6AC /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				5FBF281000F4380394A2338B903D6017 /* Sources */,
+				14409D151BCE19B917E1ACDD56DC85F6 /* Frameworks */,
+				EF115D13DFBDD03E0ABD3097C5108DCC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 7A29FA2CFFEECEA16993E00EE9C508B1 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C59230DBD73698F2D315A58920318946 /* BetterBaseClasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B9100CCD2BAB25500DAB098F92A5363 /* Build configuration list for PBXNativeTarget "BetterBaseClasses" */;
+			buildPhases = (
+				559F279F49F89FF64C87456495C810A0 /* Sources */,
+				F7AFBE95F5F38FAE24C52C261CC275C9 /* Frameworks */,
+				3C301B91AEEB32DEF6C8492E8A244AC1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterBaseClasses;
+			productName = BetterBaseClasses;
+			productReference = 59BF2422C07AC4F48B0B6E063FE4A70C /* BetterBaseClasses.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E61CE3B6DFA1FE6B3E296965C76C0E10 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ECAD3CE95CA19E5AFE91894C857527C /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				2DAFB06DF9D4B76E7F94DA2B8A63DD59 /* Sources */,
+				6488DB2C9BB99C53077D390CE673DD56 /* Frameworks */,
+				9ECCB5570B7FBF8D348655FFA0FE9C90 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 6F39A254E25C60B10B65B1DC7F342915 /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F684A373A2D7BDBAB19758DC5A84AFE2 /* Pods-HelloWorldPodMT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE7D7FF6AB1B6248761BB495B8471D84 /* Build configuration list for PBXNativeTarget "Pods-HelloWorldPodMT" */;
+			buildPhases = (
+				ED3EF66ACCAB30C01E0871C4E051A843 /* Sources */,
+				8AEBF070264939A91CA8BA5BFFF53966 /* Frameworks */,
+				7E5F0ACE0FD20B1DF9AC7A825083EF72 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E48FED5702145F86926A1A6F46FAC1E /* PBXTargetDependency */,
+				3B6EE1D5C40138A58792A1D14D88A705 /* PBXTargetDependency */,
+				68EB22F32E9A4216CDC8A43568597435 /* PBXTargetDependency */,
+			);
+			name = "Pods-HelloWorldPodMT";
+			productName = "Pods-HelloWorldPodMT";
+			productReference = 2926B1A33C326D4EB48D48A6C7C21F8D /* Pods_HelloWorldPodMT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9485AA1EFD783A46CD37085507FEECA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B2F30D90D85A544E9EFE2A49D392C25 /* Alamofire */,
+				C59230DBD73698F2D315A58920318946 /* BetterBaseClasses */,
+				E61CE3B6DFA1FE6B3E296965C76C0E10 /* MBProgressHUD */,
+				F684A373A2D7BDBAB19758DC5A84AFE2 /* Pods-HelloWorldPodMT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DAFB06DF9D4B76E7F94DA2B8A63DD59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB010EE04BA829E196554A00A951AA7C /* MBProgressHUD-dummy.m in Sources */,
+				9E17CC11959A1FE5566CE528047ACDC0 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559F279F49F89FF64C87456495C810A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1AE8B5F398BF32462C06F3892C34C4 /* AppDelegateNotificationKeys.m in Sources */,
+				7D7B3073C80761AE975CB75AE26F8A08 /* BaseAppDelegate.m in Sources */,
+				947288134A6F2AE96CB71D123F102878 /* BaseTableViewCell.m in Sources */,
+				12689ADE1AFC776725E8D435B8A349D0 /* BaseTableViewController.m in Sources */,
+				E644230728A532EAD030353A3D0A6EC9 /* BaseView.m in Sources */,
+				3BFCC01D831DC33A2912DF30E7833A71 /* BaseViewController.m in Sources */,
+				B260C2A2454BC122E95EE52040D7F2A2 /* BetterBaseClasses-dummy.m in Sources */,
+				F71F2772C7434714787133DAA8461F14 /* DynamicFontTableContainerViewController.m in Sources */,
+				FAA76DE3855F78931550C2A277FDF517 /* DynamicFontTableViewCell.m in Sources */,
+				2715351F067585DA38060CA177095912 /* DynamicFontTableViewController.m in Sources */,
+				1796C391FCE1177854BC2C74EC5386B1 /* DynamicFontView.m in Sources */,
+				A745F7DE32B6E2229DB4880E120FCA55 /* DynamicFontViewController.m in Sources */,
+				E0C7E09B813F8D51187FCC5871C927F7 /* UIView+BetterBaseClasses.m in Sources */,
+				655F9D3829842C5EB31336793187B8D3 /* UIViewController+BetterBaseClasses.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBF281000F4380394A2338B903D6017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8136D3B59D4753690000387A8082B54 /* Alamofire-dummy.m in Sources */,
+				E816509B4E3564E1A117CBDC0D845D69 /* Alamofire.swift in Sources */,
+				9077ECA2FA7B9C5D73365490A3D8898F /* Download.swift in Sources */,
+				FE1F95F519342B9266EB69B23B4336CF /* Error.swift in Sources */,
+				69A447D12E60E5C3451DA30C6BB4BF7F /* Manager.swift in Sources */,
+				D39B20327B1DAF6D8753ED5685DDE6DC /* MultipartFormData.swift in Sources */,
+				A8B5EDB7371475F62767B297B1A10CDE /* ParameterEncoding.swift in Sources */,
+				F16FEF1CB9703FE1887C8A618B84B7C6 /* Request.swift in Sources */,
+				848CEFBFC69DEBAF0E18885F3269F439 /* ResponseSerialization.swift in Sources */,
+				E6D041ABFBB48D9F1D8AA96E7D4C6C34 /* Result.swift in Sources */,
+				30A8F35FCAB29F5FBFC9F3F7E25A3B6B /* ServerTrustPolicy.swift in Sources */,
+				0EFD1FF643346FF85C83679F659672CA /* Stream.swift in Sources */,
+				E7B226D8BB16471AD63665A794036E44 /* Upload.swift in Sources */,
+				3E9392CB5BD9C0CC47B04EDB40639558 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3EF66ACCAB30C01E0871C4E051A843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E67A16ECCE135768C160F5C7D27A87 /* Pods-HelloWorldPodMT-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B6EE1D5C40138A58792A1D14D88A705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BetterBaseClasses;
+			target = C59230DBD73698F2D315A58920318946 /* BetterBaseClasses */;
+			targetProxy = 76BF74C734C5D98EC2EA2A3BEB61C043 /* PBXContainerItemProxy */;
+		};
+		68EB22F32E9A4216CDC8A43568597435 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = E61CE3B6DFA1FE6B3E296965C76C0E10 /* MBProgressHUD */;
+			targetProxy = A0C5DFA4D6A6C6F5955E8CDE54E27F58 /* PBXContainerItemProxy */;
+		};
+		9E48FED5702145F86926A1A6F46FAC1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 4B2F30D90D85A544E9EFE2A49D392C25 /* Alamofire */;
+			targetProxy = 5BA96C7339C22BA0968D2D5F38B9C49F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2216DD48A2ED683B2B1237A381081AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE4E50B0B37116309F4C22C114499B6 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A77CEA64CEF835CF706FD0A94D2F713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C20953A9F63BF3BD78366D0870C7D9E /* BetterBaseClasses.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BetterBaseClasses/BetterBaseClasses-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BetterBaseClasses/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BetterBaseClasses/BetterBaseClasses.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BetterBaseClasses;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CB1BA859AD62CB956AC39F8333EE551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06284F88A95989AF53395AC3B8EE1E59 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9BAF04B406CC65449782F93F81B02F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A42610A6803D53ACA058BE5DE293822 /* Pods-HelloWorldPodMT.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloWorldPodMT/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloWorldPodMT/Pods-HelloWorldPodMT.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HelloWorldPodMT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DD813B76D75B00D654FF48EBE312A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE4E50B0B37116309F4C22C114499B6 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A77C813F516064ED8E88511D4ECBCBE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B37BCEF25F2F1096F9915468C0A02AA0 /* Pods-HelloWorldPodMT.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloWorldPodMT/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloWorldPodMT/Pods-HelloWorldPodMT.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HelloWorldPodMT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9A6441D1079FD87629A811BED194EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C20953A9F63BF3BD78366D0870C7D9E /* BetterBaseClasses.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BetterBaseClasses/BetterBaseClasses-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BetterBaseClasses/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BetterBaseClasses/BetterBaseClasses.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BetterBaseClasses;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D069DAC03B1FA1CE52E5FCAD78394BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06284F88A95989AF53395AC3B8EE1E59 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ECAD3CE95CA19E5AFE91894C857527C /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2216DD48A2ED683B2B1237A381081AC0 /* Debug */,
+				9DD813B76D75B00D654FF48EBE312A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B9100CCD2BAB25500DAB098F92A5363 /* Build configuration list for PBXNativeTarget "BetterBaseClasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A6441D1079FD87629A811BED194EF0 /* Debug */,
+				2A77CEA64CEF835CF706FD0A94D2F713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DA65F1729D88E78F64BE8BACBAD6AC /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D069DAC03B1FA1CE52E5FCAD78394BAF /* Debug */,
+				2CB1BA859AD62CB956AC39F8333EE551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE7D7FF6AB1B6248761BB495B8471D84 /* Build configuration list for PBXNativeTarget "Pods-HelloWorldPodMT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAF04B406CC65449782F93F81B02F65 /* Debug */,
+				A77C813F516064ED8E88511D4ECBCBE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
