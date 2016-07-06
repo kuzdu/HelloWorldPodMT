@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'http://www.stirnraten.de'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Michael Rothkegel' => 'michael.rothkegel@gmx.de' }
-  s.source       = { :git => 'https://github.com/kuzdu/HelloWorldPodMT.git', :tag => '0.2.1' }
+  s.source       = { :git => 'https://github.com/kuzdu/MTPodSpecs', :tag => '0.2.1' }
   s.framework = 'UIKit'
   s.dependency  'Alamofire'
   s.dependency  'MBProgressHUD'
