@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.dependency  'Alamofire'
   s.dependency  'MBProgressHUD'
   s.dependency 'BetterBaseClasses'
-  s.source_files = 'HelloWorldPodMT/*.{h,m,swift}'
-  s.resources = 'HelloWorldPodMT/*.{png,jpeg,jpg,storyboard,xib}'
+  s.source_files = 'HelloWorldPodMT/*'
+  s.resources = 'HelloWorldPodMT/*'
 
 end
